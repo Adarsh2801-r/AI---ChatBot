@@ -1,13 +1,106 @@
 <aiml version="1.0.1" encoding="UTF-8">
 
+<!-- Greetings -->
+
 <category>
-<pattern>Hello</pattern>
+<pattern>HI</pattern>
 <template>
   <random>
   <li>hi</li>
   <li>hello</li>
+  <li>Hey there!<li>
+  <li>Hello! How are you doing?<li>
   </random>
 </template>
 </category>
+<category>
+    <pattern>HELLO</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<!-- Asking for eateries -->
+
+<category>
+    <pattern>CAN YOU SUGGEST SOME EATERIES IN BPHC?</pattern>
+    <template>
+    <random>
+    <li>Sure! I can let you know.</li>
+    <li>Of course!</li>
+    <li>Yes. I can help you with that.</li>
+    </random>
+    </template>
+</category>
+<category>
+    <pattern>* EATERIES * BITS HYDERABAD?</pattern>
+    <template><srai>CAN YOU SUGGEST SOME EATERIES IN BPHC</srai></template>
+</category>
+<category>
+    <pattern>* FOOD OUTLETS * BITS HYDERABAD?</pattern>
+    <template><srai>CAN YOU SUGGEST SOME EATERIES IN BPHC</srai></template>
+</category>
+<category>
+    <pattern>* FOOD COURTS * BITS HYDERABAD?</pattern>
+    <template><srai>CAN YOU SUGGEST SOME EATERIES IN BPHC</srai></template>
+</category>
+
+<!-- Answering for eateries -->
+
+<category>
+    <pattern>SUGGEST SOME EATERIES IN BPHC</pattern>
+    <template>
+    Here is a list of food outlets in BITS PILANI Hyderabad Campus:
+    <ul>
+    <li>Dining Hall-1 (Mess-1)</li>
+    <li>Dining Hall-2 (Mess-2)</li>
+    <li>CHIPOTLE, in front of Dining Hall-1</li>
+    <li>YUMPY'S in front of Dining Hall-1</li>
+    <li>WICH PLEASE, in front of Dining Hall-2</li>
+    <li>C3, in front of Dining Hall-2</li>    
+    <li>FRUITFUL in Connaught Place</li>
+    <li>Amul</li>
+    <li>Cafeteria, in acad block</li>
+    <li>Cafe Coffee Day, in acad block</li>
+    </ul>
+    Hope you enjoy your meal :) 
+    </template>
+</category>
+<category>
+    <pattern>* EATERIES * IN BITS HYDERABAD</pattern>
+    <template><srai>SUGGEST SOME EATERIES IN BPHC</srai></template>
+</category>
+<category>
+    <pattern>* FOOD OUTLET SUGGESTIONS * IN BPHC</pattern>
+    <template><srai>SUGGEST SOME EATERIES IN BPHC</srai></template>
+</category>
+<category>
+    <pattern>I AM HUNGRY</pattern>
+    <template><srai>SUGGEST SOME EATERIES IN BPHC</srai></template>
+</category>
+
+<category>
+    <pattern>SUGGEST SOME EATERIES NEARBY BPHC</pattern>
+    <template>
+    Here are some of eateries near/around BITS PILANI Hyderabad Campus:
+    <ul>
+    <li>Alankrita Resorts</li>
+    <li>Celebrity club</li>
+    <li>Darshini Tiffins</li>
+    <li>Santosh Family Dhaba</li>
+    <li>Tandoor</li>
+    <li>Orange bowl</li>    
+    <li>Rajender Punjabi Dhaba</li>
+    </ul>
+    Hope you enjoy your meal :) 
+    </template>
+</category>
+<category>
+    <pattern>* EATERIES * NEAR BITS HYDERABAD</pattern>
+    <template><srai>SUGGEST SOME EATERIES IN BPHC</srai></template>
+</category>
+<category>
+    <pattern>* FOOD OUTLET SUGGESTIONS * AROUND BPHC</pattern>
+    <template><srai>SUGGEST SOME EATERIES IN BPHC</srai></template>
+</category>
+
 
 </aiml>
