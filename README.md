@@ -7,7 +7,7 @@ A messenger bot - "ENiGMA" that can provide intelligent dialog conversations. Wo
 3) Recommends food eateries/outlets options available in and around BITS, Hyderabad campus.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/66625110/159150955-b706084a-3f79-48be-b024-f8f0e687f12f.png)">
+  <img src="https://user-images.githubusercontent.com/66625110/159150955-b706084a-3f79-48be-b024-f8f0e687f12f.png">
 </p>
 
 
