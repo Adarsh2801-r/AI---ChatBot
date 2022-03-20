@@ -6,6 +6,9 @@ A messenger bot - "ENiGMA" that can provide intelligent dialog conversations. Wo
 2) Interact with web-services to retrieve information asked by user ( like weather data etc.)
 3) Recommends food eateries/outlets options available in and around BITS, Hyderabad campus.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66625110/159150955-b706084a-3f79-48be-b024-f8f0e687f12f.png)">
+</p>
 
 
 ## Steps to run in local server
