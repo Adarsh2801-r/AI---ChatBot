@@ -6,6 +6,9 @@ A messenger bot - "ENiGMA" that can provide intelligent dialog conversations. Wo
 2) Interact with web-services to retrieve information asked by user ( like weather data etc.)
 3) Recommends food eateries/outlets options available in and around BITS, Hyderabad campus.
 
+![image](https://user-images.githubusercontent.com/66625110/159150782-d5c229cd-a37f-4908-8da7-9f66b81eb334.png)
+
+
 ## Steps to run in local server
 1. Create a virtual environment for the folder in which chatbot.py file is present
 2. Ensure that all required libraries are installed
